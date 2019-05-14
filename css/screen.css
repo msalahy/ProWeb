@@ -36,3 +36,9 @@ top: 20px;
     background-color: orange;
   }
 }
+@media screen and (min-width: 1024px ){
+  html{
+    font-size: 3em;
+    background-color: pink;
+  }
+}
