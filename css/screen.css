@@ -1,3 +1,5 @@
+
+
 img{
 width: 80%;
 }
@@ -16,7 +18,21 @@ p{
 position: -webkit-sticky;
 }
 .toph1{
+  /*
   position: -webkit-sticky;
   position: sticky;
+  */
 top: 20px;
+}
+
+@media screen and (min-width: 360px ){
+  html{
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 737px ){
+  html{
+    font-size: 2em;
+    background-color: orange;
+  }
 }
