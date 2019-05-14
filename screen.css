@@ -1,0 +1,22 @@
+img{
+width: 80%;
+}
+p{
+  display: flex;
+  color: white;
+  top: 300px;
+  font-size: 300%;
+  text-shadow: .1em .1em .3em rgba(0, 0, 0, .6);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
+.credit-card-group{
+position: -webkit-sticky;
+}
+.toph1{
+  position: -webkit-sticky;
+  position: sticky;
+top: 20px;
+}
