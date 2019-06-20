@@ -6,21 +6,28 @@
     <meta content="width=device-width" name="viewport">
     <link rel="stylesheet" type="text/css" href="css/screen.css">
     <meta content="yes" name="apple-mobile-web-app-capable">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/demo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">  
     <link rel="stylesheet" type="text/css" href="assets/css/paymentInfo.css">
     <link rel="shortcut icon" href="assets/favicon.ico">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-
-    <!-- Main HTML Inex file. -->
+    <!-- Main HTML Index file. -->
     <link rel="stylesheet" type="text/css" href="css/screen.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
   </head>
   <body>
+          <!-- Navigation Menu Top -->
+    <div class="navBar">
+      <a href="index.html"> Home </a>
+      <a href="index.html"> About Us</a>
+    </div>
+
+
     <div class="toph1">
       <h1>Welcome to Your Website! </h1>
     </div>
-    <div>
+
+
+    <div class="regularForm">
      <form method=”post” autocomplete=”on”>
        Name: <input type=”text” name=”name”
        autocomplete=”name”>
@@ -31,7 +38,8 @@
        Credit Card: <input type="text" name="ccname cardnumber cvc ccmonth ccyear exp-date card-type" autocomplete="cc-name cc-number cc-csc cc-exp-month cc-exp-year cc-exp cc-type">
      </form>
     </div>
-    <section>
+
+    <section class="creditCard">
       <form>
         <fieldset class="credit-card-group">
           <legend>Credit Card Information</legend>
@@ -46,20 +54,27 @@
         </fieldset>
       </form>
     </section>
+
+
     <div>
       <p class="pp">Hello Eveyone </p>
-      <img src="333.jpg">
-    </div>
-    <div>
-      <h1>Cellphone Suggestions</h1>
-      <input type="email">
-      <input type="url">
-      <input type="tel">
-      <input type="number" pattern="[0-9]*" inputtype="numeric">
+      <img src="images/333.jpg">
     </div>
 
     <div>
-      <h1>States</h1>
+      <h1>Cellphone Suggestions</h1>
+      <label>Email</label>
+      <input type="email">
+      <label>Web URL </label>
+      <input type="url">
+      <label>Telephone</label>
+      <input type="tel">
+      <label>Numbers</label>
+      <input type="number" pattern="[0-9]*" inputtype="numeric">
+    </div>
+
+    <div class="choices">
+      <h1> Choosing from States States</h1>
       <input id=”state” list=”state-list”>
       <datalist id=”state-list”>
          <option value=”Vermont”>
@@ -69,6 +84,26 @@
          <option value=”Wisconsin”>
         <option value=”Wyoming”>
       </datalist>
+    </div>
+
+    <div class="htmlFroms">
+      <h1>HTML Standard Forms</h1>
+      <label>Check Bocx</label>
+      <input type="checkbox" name="">
+      <label>Circle Choice</label>
+      <input type="radio" name="">
+      <label>Password</label>
+      <input type="password" name="">
+      <select>
+        <option>Hi</option>
+        <option>Hello</option>
+      </select>
+      <label>File Picker </label>
+      <input type="file" name="">
+      <label>Submit Button </label>
+      <input type="submit" name="">
+      <label>Text</label>
+      <input type="text" name="">
     </div>
     <script src="assets/scripts/libs/modernizr.js"></script>
     <script src="assets/scripts/libs/jquery.js"></script>
